@@ -1,0 +1,72 @@
+body {
+    font-family: "Open Sans", "Roboto", sans-serif, "Times New Roman", "Courier New";
+    margin: 0px 5px;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* CSS for Heading */
+.hero-text {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.header {
+    width: 1200px;
+    /* flex-shrink: 1; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 150px; */
+}
+
+.header-text {
+    /* flex: 1; */
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-links {
+    /* flex-shrink: 1; */
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.left-header-content{
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-basis: 450px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-placeholder-image {
+    width: 522px;
+    height: 237px;
+}
