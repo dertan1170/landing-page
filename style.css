@@ -10,18 +10,19 @@ body {
 /* CSS for Heading */
 .hero-text {
     background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
+    /* Fix this */
+    /* display: flex; */
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    padding-top: 16px;
+    /* padding-top: 16px; */
 }
 
 .header {
-    width: 1200px;
+    max-width: 1200px;
     /* flex-shrink: 1; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     /* gap: 150px; */
 }
@@ -36,7 +37,8 @@ body {
 .header-links {
     /* flex-shrink: 1; */
     list-style: none;
-    margin: 0px;
+    /* margin: 0px; */
+    margin-left: auto;
     padding: 0px;
     display: flex;
     gap: 16px;
@@ -47,6 +49,7 @@ body {
 .header-content {
     max-width: 1200px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     padding: 100px 0px;
