@@ -1,25 +1,26 @@
 body {
     font-family: "Open Sans", "Roboto", sans-serif, "Times New Roman", "Courier New";
-    margin: 0px 5px;
+    /* margin: 0px 5px; */
     /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
+    align-items: center;
     box-sizing: border-box;
 }
 
 /* CSS for Heading */
 .hero-text {
     background-color: #1F2937;
+    max-width: 1200px;
     /* Fix this */
     /* display: flex; */
     /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     /* padding-top: 16px; */
 }
 
 .header {
-    max-width: 1200px;
     /* flex-shrink: 1; */
     display: flex;
     /* justify-content: space-between; */
@@ -47,7 +48,8 @@ body {
 }
 
 .header-content {
-    max-width: 1200px;
+    /* the following is likely what was causing the previous error */
+    /* max-width: 1200px; */ 
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
