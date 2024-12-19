@@ -16,7 +16,8 @@ body {
 
 .section-one-content {
     max-width: 1200px;
-    padding: 0px 70px;
+    /* padding: 0px 70px; */
+    margin: 0px 70px;
 }
 
 .header {
@@ -104,14 +105,16 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    padding: 50px 0px;
+    margin: 50px 0px;
 }
 
 .section-two-content {
     display: flex;
+    flex-flow: row wrap;
     /* justify-content: center; */
+    margin: 0px 70px;
     gap: 75px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .section-two-image-placeholder{
@@ -119,7 +122,7 @@ body {
     height: 175px;
     border: 4px;
     border-style: solid;
-    border-color: #225296;
+    border-color: #3992F6;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -127,4 +130,38 @@ body {
 .section-two-image-caption{
     width: 175px;
     text-align: center;
+    color: #737c86;
 }
+
+/* CSS for Section #3 */
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.section-three-content {
+    /* max-width: 1100px; */
+    max-width: 830px;
+    margin: 120px 70px;
+    color: #1F2937;
+}
+
+.section-three-quote {
+    font-size: 36px;
+    /* lighter font weight doesn't seem to be working */
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.section-three-quote-author {
+    font-size: 28px;
+    /* lighter font weight doesn't seem to be working */
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+
+
