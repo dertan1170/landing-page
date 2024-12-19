@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans", "Roboto", sans-serif, "Times New Roman", "Courier New";
-    margin: 0px 5px;
+    margin: 0px;
     /* Used to separate the different sections */
     display: flex;
     flex-direction: column;
@@ -93,7 +93,8 @@ body {
 
 /* CSS for Section #2 */
 .section-two {
-    background-color: rgb(101, 101, 184);
+    /* background-color: #6565b8; */
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
