@@ -135,7 +135,7 @@ body {
 
 /* CSS for Section #3 */
 .section-three {
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
     display: flex;
     justify-content: center;
 }
@@ -161,7 +161,42 @@ body {
     text-align: right;
 }
 
+/* CSS for Section #4 */
+.section-four {
+    background-color: white;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
 
+.section-four-content {
+    flex-grow: 1;
 
+    max-width: 1200px;
+    margin: 0px 70px;
+    padding: 65px 0px;
+    background-color: #3992F6;
+    border-radius: 10px;
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
 
+.section-four-content-text {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.section-four-content-title {
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.section-four .sign-up-button {
+    margin: 0px;
+    margin-right: 20px;
+    border: 2px solid white;
+}
